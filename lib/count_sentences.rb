@@ -62,13 +62,8 @@ class String
     self.end_with?('!')
   end
   
-  def exclamation?
-    "Woof!"
-  end
-  
-  
   def count_sentences
-    "Woof!"
+    self.split('.').count
   end
  
 end
