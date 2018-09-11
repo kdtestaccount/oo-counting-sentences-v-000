@@ -46,7 +46,7 @@
 # end
 
 
-class Dog
+class String
  
   attr_accessor :name, :owner
  
