@@ -55,7 +55,7 @@ class String
   end
  
   def sentence?
-    self.word.to_s.end_with?('.')
+    self.string.to_s.end_with?('.')
   end
   
   def question?
