@@ -63,7 +63,7 @@ class String
   end
   
   def count_sentences
-    puts self.split(/[.!?]/)
+    self.split(/[.!?]/)
   end
  
 end
