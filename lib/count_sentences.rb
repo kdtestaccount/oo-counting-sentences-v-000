@@ -48,7 +48,7 @@
 
 class String
  
-  attr_accessor :name, :owner
+  attr_accessor :word
  
   def initialize(name)
     @name = name
