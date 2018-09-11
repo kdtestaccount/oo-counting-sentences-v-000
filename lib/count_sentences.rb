@@ -51,7 +51,7 @@ class String
   attr_accessor :word
  
   def initialize(word)
-    @word = word
+    @word = word._tos
   end
  
   def sentence?
