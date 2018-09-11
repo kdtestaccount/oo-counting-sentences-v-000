@@ -57,6 +57,23 @@ class String
   def bark
     "Woof!"
   end
+  
+    def bark
+    "Woof!"
+  end
+  
+    def bark
+    "Woof!"
+  end
+  
+    def bark
+    "Woof!"
+  end
+  
+  
+    ef bark
+    "Woof!"
+  end
  
   def get_adopted(owner_name)
     self.owner = owner_name
