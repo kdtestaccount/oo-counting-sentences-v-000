@@ -58,28 +58,23 @@ class String
     "Woof!"
   end
   
-    def bark
+  def bark
     "Woof!"
   end
   
-    def bark
+  def bark
     "Woof!"
   end
   
-    def bark
+  def bark
     "Woof!"
   end
   
   
-    ef bark
+  def bark
     "Woof!"
   end
  
-  def get_adopted(owner_name)
-    self.owner = owner_name
-  end
 end
 
-fido = Dog.new("Fido")
-puts self.name
 
