@@ -48,7 +48,7 @@
 
 class String
  
-  attr_accessor :word
+  attr_accessor :string
  
   def initialize(word)
     @word = word.to_s
