@@ -55,7 +55,7 @@ class String
   end
   
   def question?
-    "Woof!"
+    self.end_with?('?')
   end
   
   def exclamation?
