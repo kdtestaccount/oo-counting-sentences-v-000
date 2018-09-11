@@ -57,6 +57,7 @@ class String
   def sentence?
     if self.word.to_s.end_with?('.')
       true
+    end
   end
   
   def question?
