@@ -54,24 +54,24 @@ class String
     @word = word
   end
  
-  def bark
+  def sentence?
+    self.sentence.to_s.end_with?('.')
+  end
+  
+  def question?
     "Woof!"
   end
   
-  def bark
+  def exclamation?
     "Woof!"
   end
   
-  def bark
-    "Woof!"
-  end
-  
-  def bark
+  def exclamation?
     "Woof!"
   end
   
   
-  def bark
+  def count_sentences
     "Woof!"
   end
  
