@@ -50,12 +50,8 @@ class String
  
   attr_accessor :string
  
-  def initialize(string)
-    self.string = string
-  end
- 
   def sentence?
-    self.string.to_s.end_with?('.')
+    self.end_with?('.')
   end
   
   def question?
