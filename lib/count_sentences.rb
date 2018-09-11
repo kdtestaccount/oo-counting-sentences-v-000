@@ -50,7 +50,7 @@ class String
  
   attr_accessor :string
  
-  def initialize(word)
+  def initialize(string)
     @word = word.to_s
   end
  
