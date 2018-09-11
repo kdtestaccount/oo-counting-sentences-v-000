@@ -51,7 +51,7 @@ class String
   attr_accessor :string
  
   def initialize(string)
-    self.string = word.to_s
+    self.string = string
   end
  
   def sentence?
